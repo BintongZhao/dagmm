@@ -1,0 +1,17 @@
+2025-07-03 06:51:41,671 - INFO - TimeSeriesDaGMM Network:
+2025-07-03 06:51:41,671 - INFO - Number of trainable parameters: 1,977
+2025-07-03 06:51:41,671 - INFO - Starting training...
+2025-07-03 06:51:41,698 - INFO - Epoch [1/2], Batch [1/5], Time: 0:00:00, total_loss: nan, sample_energy: nan, recon_error: 0.9527, cov_diag: 9267.0918
+2025-07-03 06:51:41,704 - INFO - Epoch [1/2], Batch [2/5], Time: 0:00:00, total_loss: nan, sample_energy: nan, recon_error: nan, cov_diag: nan
+2025-07-03 06:51:41,711 - INFO - Epoch [1/2], Batch [3/5], Time: 0:00:00, total_loss: nan, sample_energy: nan, recon_error: nan, cov_diag: nan
+2025-07-03 06:51:41,716 - INFO - Epoch [1/2], Batch [4/5], Time: 0:00:00, total_loss: nan, sample_energy: nan, recon_error: nan, cov_diag: nan
+2025-07-03 06:51:41,722 - INFO - Epoch [1/2], Batch [5/5], Time: 0:00:00, total_loss: nan, sample_energy: nan, recon_error: nan, cov_diag: nan
+2025-07-03 06:51:41,723 - INFO - Epoch 1 completed. Average loss: nan
+2025-07-03 06:51:41,729 - INFO - Epoch [2/2], Batch [1/5], Time: 0:00:00, total_loss: nan, sample_energy: nan, recon_error: nan, cov_diag: nan
+2025-07-03 06:51:41,735 - INFO - Epoch [2/2], Batch [2/5], Time: 0:00:00, total_loss: nan, sample_energy: nan, recon_error: nan, cov_diag: nan
+2025-07-03 06:51:41,741 - INFO - Epoch [2/2], Batch [3/5], Time: 0:00:00, total_loss: nan, sample_energy: nan, recon_error: nan, cov_diag: nan
+2025-07-03 06:51:41,747 - INFO - Epoch [2/2], Batch [4/5], Time: 0:00:00, total_loss: nan, sample_energy: nan, recon_error: nan, cov_diag: nan
+2025-07-03 06:51:41,753 - INFO - Epoch [2/2], Batch [5/5], Time: 0:00:00, total_loss: nan, sample_energy: nan, recon_error: nan, cov_diag: nan
+2025-07-03 06:51:41,753 - INFO - Epoch 2 completed. Average loss: nan
+2025-07-03 06:51:41,753 - INFO - Training completed!
+2025-07-03 06:51:41,840 - INFO - Training curves saved: ./test_logs/training_curves.png

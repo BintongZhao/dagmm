@@ -1,0 +1,52 @@
+2025-07-03 06:52:13,456 - INFO - ==================================================
+2025-07-03 06:52:13,457 - INFO - Time Series DAGMM Training
+2025-07-03 06:52:13,457 - INFO - ==================================================
+2025-07-03 06:52:13,457 - INFO - Configuration:
+2025-07-03 06:52:13,457 - INFO -   data_type: synthetic
+2025-07-03 06:52:13,457 - INFO -   data_path: None
+2025-07-03 06:52:13,457 - INFO -   n_normal: 50
+2025-07-03 06:52:13,457 - INFO -   n_anomalous: 10
+2025-07-03 06:52:13,457 - INFO -   seq_length_min: 20
+2025-07-03 06:52:13,457 - INFO -   seq_length_max: 30
+2025-07-03 06:52:13,457 - INFO -   input_dim: 5
+2025-07-03 06:52:13,457 - INFO -   test_split: 0.2
+2025-07-03 06:52:13,457 - INFO -   normalization: standard
+2025-07-03 06:52:13,457 - INFO -   latent_dim: 32
+2025-07-03 06:52:13,457 - INFO -   hidden_dim: 64
+2025-07-03 06:52:13,457 - INFO -   num_layers: 2
+2025-07-03 06:52:13,457 - INFO -   dropout: 0.2
+2025-07-03 06:52:13,457 - INFO -   bidirectional: True
+2025-07-03 06:52:13,457 - INFO -   n_gmm: 4
+2025-07-03 06:52:13,457 - INFO -   batch_size: 8
+2025-07-03 06:52:13,457 - INFO -   num_epochs: 3
+2025-07-03 06:52:13,457 - INFO -   lr: 0.0001
+2025-07-03 06:52:13,457 - INFO -   lambda_energy: 0.1
+2025-07-03 06:52:13,457 - INFO -   lambda_cov_diag: 0.005
+2025-07-03 06:52:13,457 - INFO -   log_step: 10
+2025-07-03 06:52:13,457 - INFO -   model_save_step: 25
+2025-07-03 06:52:13,457 - INFO -   experiment_name: timeseries_dagmm
+2025-07-03 06:52:13,457 - INFO -   output_dir: ./experiments
+2025-07-03 06:52:13,457 - INFO -   mode: train
+2025-07-03 06:52:13,457 - INFO -   pretrained_model: None
+2025-07-03 06:52:13,458 - INFO -   use_cuda: True
+2025-07-03 06:52:13,458 - INFO -   seed: 42
+2025-07-03 06:52:13,458 - INFO -   num_workers: 0
+2025-07-03 06:52:13,458 - INFO -   threshold_percentile: 95
+2025-07-03 06:52:13,458 - INFO - ==================================================
+2025-07-03 06:52:13,458 - INFO - Creating synthetic dataset...
+2025-07-03 06:52:13,473 - INFO - Created synthetic dataset:
+2025-07-03 06:52:13,474 - INFO -   Training samples: 48
+2025-07-03 06:52:13,474 - INFO -   Test samples: 12
+2025-07-03 06:52:15,673 - INFO - TimeSeriesDaGMM Network:
+2025-07-03 06:52:15,673 - INFO - Number of trainable parameters: 213,449
+2025-07-03 06:52:15,673 - INFO - Starting training...
+2025-07-03 06:52:15,673 - INFO - Starting training...
+2025-07-03 06:52:15,780 - INFO - Epoch 1 completed. Average loss: 2811.7197
+2025-07-03 06:52:15,857 - INFO - Epoch 2 completed. Average loss: 3133.2042
+2025-07-03 06:52:15,930 - INFO - Epoch 3 completed. Average loss: 2937.8225
+2025-07-03 06:52:15,931 - INFO - Training completed!
+2025-07-03 06:52:16,030 - INFO - Training curves saved: ./experiments/timeseries_dagmm_20250703_065213/training_curves.png
+2025-07-03 06:52:16,030 - INFO - Training completed!
+2025-07-03 06:52:16,034 - INFO - Model saved: ./experiments/timeseries_dagmm_20250703_065213/models/epoch_final_timeseries_dagmm.pth
+2025-07-03 06:52:16,034 - INFO - Experiment completed successfully!
+2025-07-03 06:52:16,034 - INFO - Results saved in: ./experiments/timeseries_dagmm_20250703_065213
