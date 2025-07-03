@@ -15,3 +15,20 @@
 2025-07-03 06:51:41,753 - INFO - Epoch 2 completed. Average loss: nan
 2025-07-03 06:51:41,753 - INFO - Training completed!
 2025-07-03 06:51:41,840 - INFO - Training curves saved: ./test_logs/training_curves.png
+2025-07-03 06:54:06,962 - INFO - TimeSeriesDaGMM Network:
+2025-07-03 06:54:06,963 - INFO - Number of trainable parameters: 1,977
+2025-07-03 06:54:06,963 - INFO - Starting training...
+2025-07-03 06:54:06,989 - INFO - Epoch [1/2], Batch [1/5], Time: 0:00:00, total_loss: 69.2851, sample_energy: -14.3929, recon_error: 1.0762, cov_diag: 13929.6348
+2025-07-03 06:54:06,995 - INFO - Epoch [1/2], Batch [2/5], Time: 0:00:00, total_loss: 48.3288, sample_energy: -12.1677, recon_error: 0.9651, cov_diag: 9716.1074
+2025-07-03 06:54:07,002 - INFO - Epoch [1/2], Batch [3/5], Time: 0:00:00, total_loss: 108.1391, sample_energy: -12.1958, recon_error: 0.9324, cov_diag: 21685.2637
+2025-07-03 06:54:07,008 - INFO - Epoch [1/2], Batch [4/5], Time: 0:00:00, total_loss: 459.9584, sample_energy: -11.0442, recon_error: 0.9895, cov_diag: 92014.6641
+2025-07-03 06:54:07,015 - INFO - Epoch [1/2], Batch [5/5], Time: 0:00:00, total_loss: 1399.1659, sample_energy: -11.4826, recon_error: 1.0633, cov_diag: 279850.1875
+2025-07-03 06:54:07,015 - INFO - Epoch 1 completed. Average loss: 416.9755
+2025-07-03 06:54:07,021 - INFO - Epoch [2/2], Batch [1/5], Time: 0:00:00, total_loss: 23.7158, sample_energy: -12.7435, recon_error: 1.0368, cov_diag: 4790.6709
+2025-07-03 06:54:07,027 - INFO - Epoch [2/2], Batch [2/5], Time: 0:00:00, total_loss: 26.0608, sample_energy: -14.6338, recon_error: 0.8950, cov_diag: 5325.8438
+2025-07-03 06:54:07,032 - INFO - Epoch [2/2], Batch [3/5], Time: 0:00:00, total_loss: 55.4599, sample_energy: -11.6012, recon_error: 0.9608, cov_diag: 11131.8477
+2025-07-03 06:54:07,038 - INFO - Epoch [2/2], Batch [4/5], Time: 0:00:00, total_loss: 27.6086, sample_energy: -18.3866, recon_error: 1.0691, cov_diag: 5675.6309
+2025-07-03 06:54:07,043 - INFO - Epoch [2/2], Batch [5/5], Time: 0:00:00, total_loss: 18.4044, sample_energy: -15.2698, recon_error: 1.0905, cov_diag: 3768.1658
+2025-07-03 06:54:07,044 - INFO - Epoch 2 completed. Average loss: 30.2499
+2025-07-03 06:54:07,044 - INFO - Training completed!
+2025-07-03 06:54:07,147 - INFO - Training curves saved: ./test_logs/training_curves.png
